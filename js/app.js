@@ -35,7 +35,7 @@ function adicionar() {
           totalGeral += subtotal;
           valorTotal.textContent = `R$${totalGeral}`;
 
-          quantidadeInput.value = '';
+          quantidadeInput.value = 'R$0';
 }
 
 function limpar() {
